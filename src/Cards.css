@@ -1,0 +1,22 @@
+.img{
+    width:100%;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+.txt {
+    
+    font: bold 3em Impact, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+p {
+    /* basic font setting */
+    font: bold 3em Impact, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0 white,
+    4px 4px 0 black;
+  }
+  
