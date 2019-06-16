@@ -7,6 +7,7 @@ MDBBtn, MDBView, MDBContainer, MDBCard, MDBCardBody, MDBInput,MDBFooter
 } from "mdbreact";
 import "./LoginForm.css";
 import SignIn from './SignIn';
+import { whileStatement } from "@babel/types";
 
 class Home extends React.Component {
     state = {
@@ -52,13 +53,13 @@ render() {
                     <hr className="hr-light" />
                     <form>
                     <MDBInput label="Your name" icon="user" required value={this.state.fname}
-                name="fname" onChange={this.changeHandler} />
+                name="fname" onChange={this.changeHandler} style={{color:"white"}} />
                     <MDBInput label="Your email" icon="envelope" required value={this.state.email}
-                name="email" onChange={this.changeHandler} />
+                name="email" onChange={this.changeHandler} style={{color:"white"}} />
                     <MDBInput label="Your password" icon="lock" type="password" required value={this.state.password}
-                name="password" onChange={this.changeHandler} />
+                name="password" onChange={this.changeHandler} style={{color:"white"}} />
                     <MDBInput label="Confirm your password" icon="lock" type="password" required value={this.state.confirmpass}
-                name="confirmpass" onChange={this.changeHandler} />
+                name="confirmpass" onChange={this.changeHandler} style={{color:"white"}} />
                     
              
                     <div className="text-center mt-4 black-text">
