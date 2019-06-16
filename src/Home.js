@@ -7,7 +7,7 @@ MDBBtn, MDBView, MDBContainer, MDBCard, MDBCardBody, MDBInput,MDBFooter
 } from "mdbreact";
 import "./LoginForm.css";
 import SignIn from './SignIn';
-import { whileStatement } from "@babel/types";
+
 
 class Home extends React.Component {
     state = {
