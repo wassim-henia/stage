@@ -35,7 +35,7 @@ class SignIn extends Component {
               className="text-center light-blue darken-3 white-text"
             >
               <MDBIcon icon="pencil-alt" />
-              &nbsp;&nbsp;SignIn
+              &nbsp;&nbsp;Sign In
             </MDBModalHeader>
             <MDBModalBody>
             <MDBInput Placeholder="Your email" icon="envelope"  />
