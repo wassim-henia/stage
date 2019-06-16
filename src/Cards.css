@@ -8,15 +8,16 @@
     font: bold 3em Impact, sans-serif;
     text-align: center;
     letter-spacing: 2px;
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+    text-shadow: 2px 3px 5px rgba(255, 252, 100, 0.3);
     text-align: center;
   }
 p {
     /* basic font setting */
     font: bold 3em Impact, sans-serif;
+    color : rgb(239, 140, 252);
     text-align: center;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 0 white,
-    4px 4px 0 black;
+    text-shadow: 2px 2px 0 black,
+    4px 4px 0 rgb(0, 0, 0);
   }
   
