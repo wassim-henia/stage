@@ -8,7 +8,7 @@ import Imag2 from './prof2.jpg';
 import Imag3 from './prof3.jpg';
 import Imag4 from './prof4.jpg';
 import './Cards.css';
-import { brotliDecompress } from 'zlib';
+
 
 class Cards  extends React.Component {
   constructor() {
@@ -40,8 +40,9 @@ class Cards  extends React.Component {
     </div>
     </FrontSide>
     <BackSide className="mon-txt">
+    <p> 8h - 10h</p>
       <p>Physics </p>
-      <p>From 8h to 10h</p>
+      
     </BackSide>
   </Flippy>
   </Col>
@@ -64,8 +65,9 @@ class Cards  extends React.Component {
     </div>
     </FrontSide>
     <BackSide >
+    <p>10h - 12h</p>
       <p>Maths </p>
-      <p>From 10h to 12h</p>
+      
     </BackSide>
   </Flippy>
   </Col>
@@ -88,8 +90,9 @@ class Cards  extends React.Component {
     </div>
     </FrontSide>
     <BackSide >
+    <p> 14h - 16h</p>
       <p>French </p>
-      <p>From 14h to 16h</p>
+      
     </BackSide>
   </Flippy>
   </Col>
@@ -115,8 +118,9 @@ class Cards  extends React.Component {
     </div>
     </FrontSide>
     <BackSide className="mon-txt">
+    <p>16h - 18h</p>
       <p>English </p>
-      <p>From 16h to 18h</p>
+      
     </BackSide>
   </Flippy>
   </Col>
